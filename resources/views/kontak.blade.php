@@ -76,41 +76,6 @@
 					<div class="clear"></div>
 				</div>
 			</div>
-
-			<div class="section contacts" id="section-contacts">
-				<div class="content">
-
-					<div class="title">
-						<div class="title_inner">Kirim Surel</div>
-					</div>
-
-					<!-- form -->
-					<div class="contact_form content-box">
-						<form id="cform" method="post">
-							<div class="group-val">
-   								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="group-val">
-								<input type="email" name="email" placeholder="Email" />
-							</div>
-							<div class="group-val ct-gr">
-								<textarea name="message" placeholder="Message"></textarea>
-							</div>
-							<div class="group-bts">
-								<button type="submit" class="btn hover-animated">
-									<span class="circle"></span>
-									<span class="lnk">Kirim Pesan</span>
-								</button>
-							</div>
-						</form>
-						<div class="alert-success">
-							<p>Pesan Telah Terikirim :)</p>
-						</div>
-					</div>
-
-				</div>
-				<div class="clear"></div>
-			</div>
 		</div>
 
 @endsection

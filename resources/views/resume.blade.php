@@ -52,7 +52,7 @@
 							</ul>
 						</div>
 						<div class="bts">
-							<a href="#" class="btn hover-animated">
+							<a href="{{URL::to('/')}}/assets/pdf/AntonS_CV.pdf" class="btn hover-animated">
 								<span class="circle"></span>
 								<span class="lnk">Unduh CV</span>
 							</a>

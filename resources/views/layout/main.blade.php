@@ -8,7 +8,6 @@
 
 	<title>Anton Surya - {{$title}}</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{asset('assets/css/basic.css')}}" />
 	<link rel="stylesheet" href="{{asset('assets/css/layout.css')}}" />
@@ -21,6 +20,7 @@
 	<link rel="stylesheet" href="{{asset('assets/css/solid.css')}}" />
 
 	<link rel="shortcut icon" href="{{asset('assets/images/favicons/favicon.png')}}">
+	
 
 </head>
 
@@ -46,7 +46,7 @@
 
 				<!--Sisi Kiri-->
 				<div class="logo hover-masks-logo">
-					<a href="#">
+					<a href="{{URL::to('/')}}/assets/pdf/AntonS_CV.pdf">
 						<span class="mask-lnk">Anton <strong>Surya</strong></span>
 						<span class="mask-lnk mask-lnk-hover">Unduh <strong>CV</strong></span>
 					</a>
